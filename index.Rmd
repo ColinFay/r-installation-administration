@@ -8,7 +8,7 @@ link-citations: yes
 github-repo: ColinFay/r-installation-administration
 description: "R Installation and administration"
 ---
-# R Installation and Administration
+# R Installation and Administration {-}
 <p>This is a guide to installation and administration for R.</p>
 <p>This manual is for R, version 3.4.2 (2017-09-28).</p>
 <p>Copyright © 2001–2016 R Core Team</p>

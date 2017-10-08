@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta content="f095eb19-0008-4794-8f44-0847786dad0f" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (3.8.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>R Installation and Administration</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="uC7CSaVJCtfYcNW3U3DnFvC" playOrder="1">
+      <navLabel>
+        <text>1 Obtaining R</text>
+      </navLabel>
+      <content src="R-admin_split_003.html"/>
+    </navPoint>
+    <navPoint id="u5t84k4BfeDJhcK47GNPmUE" playOrder="2">
+      <navLabel>
+        <text>2 Installing R under Unix-alikes</text>
+      </navLabel>
+      <content src="R-admin_split_004.html"/>
+    </navPoint>
+    <navPoint id="uQCoiWPBHAo3JaulAcksia5" playOrder="3">
+      <navLabel>
+        <text>3 Installing R under Windows</text>
+      </navLabel>
+      <content src="R-admin_split_005.html"/>
+    </navPoint>
+    <navPoint id="ueOEAwwmaMWxsDYV2xMyCVE" playOrder="4">
+      <navLabel>
+        <text>4 Installing R under macOS</text>
+      </navLabel>
+      <content src="R-admin_split_006.html"/>
+    </navPoint>
+    <navPoint id="um8L9QxmIwHq2BKqFiMjU9G" playOrder="5">
+      <navLabel>
+        <text>5 Running R</text>
+      </navLabel>
+      <content src="R-admin_split_007.html"/>
+    </navPoint>
+    <navPoint id="ubJSUvtSzlovdoueIW3cUJ8" playOrder="6">
+      <navLabel>
+        <text>6 Add-on packages</text>
+      </navLabel>
+      <content src="R-admin_split_008.html"/>
+    </navPoint>
+    <navPoint id="u2hrg2CRfB6unBv5iioq7E7" playOrder="7">
+      <navLabel>
+        <text>7 Internationalization and Localization</text>
+      </navLabel>
+      <content src="R-admin_split_009.html"/>
+    </navPoint>
+    <navPoint id="uEn7NfFzbelZ3P6d9pFXcxD" playOrder="8">
+      <navLabel>
+        <text>8 Choosing between 32- and 64-bit builds</text>
+      </navLabel>
+      <content src="R-admin_split_010.html"/>
+    </navPoint>
+    <navPoint id="u4gH5sc67xE8phXG69OvqI7" playOrder="9">
+      <navLabel>
+        <text>9 The standalone Rmath library</text>
+      </navLabel>
+      <content src="R-admin_split_011.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

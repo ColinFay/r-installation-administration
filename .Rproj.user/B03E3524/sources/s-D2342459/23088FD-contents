@@ -1,4 +1,4 @@
-# R Installation and administration
+# iR Installation and administration
 
 This is a bookdown adaptation of the html version of the R manuals. 
 

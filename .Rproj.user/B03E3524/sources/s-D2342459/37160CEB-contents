@@ -1,0 +1,178 @@
+# Concept index
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">Jump to:  </td>
+<td align="left"><a href="#Concept-index_cp_letter-A" class="summary-letter"><strong>A</strong></a>   <a href="#Concept-index_cp_letter-B" class="summary-letter"><strong>B</strong></a>   <a href="#Concept-index_cp_letter-F" class="summary-letter"><strong>F</strong></a>   <a href="#Concept-index_cp_letter-I" class="summary-letter"><strong>I</strong></a>   <a href="#Concept-index_cp_letter-L" class="summary-letter"><strong>L</strong></a>   <a href="#Concept-index_cp_letter-M" class="summary-letter"><strong>M</strong></a>   <a href="#Concept-index_cp_letter-O" class="summary-letter"><strong>O</strong></a>   <a href="#Concept-index_cp_letter-P" class="summary-letter"><strong>P</strong></a>   <a href="#Concept-index_cp_letter-R" class="summary-letter"><strong>R</strong></a>   <a href="#Concept-index_cp_letter-S" class="summary-letter"><strong>S</strong></a>   <a href="#Concept-index_cp_letter-U" class="summary-letter"><strong>U</strong></a>   <a href="#Concept-index_cp_letter-V" class="summary-letter"><strong>V</strong></a>   <a href="#Concept-index_cp_letter-W" class="summary-letter"><strong>W</strong></a>  </td>
+</tr>
+</tbody>
+</table>
+<p>Index Entry</p>
+<p> </p>
+<p>Section</p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-A">A</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-AIX">AIX</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#AIX">AIX</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-B">B</a></p>
+<p><a href="the-standalone-rmath-library.html#index-BLAS-library">BLAS library</a>:</p>
+<p> </p>
+<p><a href="the-standalone-rmath-library.html#Linear-algebra">Linear algebra</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-BLAS-library-1">BLAS library</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#macOS">macOS</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-BLAS-library-2">BLAS library</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#Solaris">Solaris</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-F">F</a></p>
+<p><a href="appendix-a-essential-and-useful-other-programs-under-a-unix-alike.html#index-FORTRAN">FORTRAN</a>:</p>
+<p> </p>
+<p><a href="appendix-a-essential-and-useful-other-programs-under-a-unix-alike.html#Using-FORTRAN">Using FORTRAN</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-FreeBSD">FreeBSD</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#FreeBSD">FreeBSD</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-I">I</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-Installation">Installation</a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Installation">Installation</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-Installing-under-Unix_002dalikes">Installing under Unix-alikes</a>:</p>
+<p> </p>
+<p><a href="obtaining-r.html#Installing-R-under-Unix_002dalikes">Installing R under Unix-alikes</a></p>
+<p><a href="installing-r-under-windows.html#index-Installing-under-Windows">Installing under Windows</a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Installing-R-under-Windows">Installing R under Windows</a></p>
+<p><a href="add-on-packages.html#index-Internationalization">Internationalization</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Internationalization">Internationalization</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-L">L</a></p>
+<p><a href="the-standalone-rmath-library.html#index-LAPACK-library">LAPACK library</a>:</p>
+<p> </p>
+<p><a href="the-standalone-rmath-library.html#LAPACK">LAPACK</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-LAPACK-library-1">LAPACK library</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#macOS">macOS</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-LAPACK-library-2">LAPACK library</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#Solaris">Solaris</a></p>
+<p><a href="running-r.html#index-Libraries">Libraries</a>:</p>
+<p> </p>
+<p><a href="relational-databases.html#Add_002don-packages">Add-on packages</a></p>
+<p><a href="running-r.html#index-Libraries_002c-managing">Libraries, managing</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Managing-libraries">Managing libraries</a></p>
+<p><a href="running-r.html#index-Libraries_002c-site">Libraries, site</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Managing-libraries">Managing libraries</a></p>
+<p><a href="running-r.html#index-Libraries_002c-user">Libraries, user</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Managing-libraries">Managing libraries</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-Linux">Linux</a>:</p>
+<p> </p>
+<p><a href="obtaining-r.html#Installing-R-under-Unix_002dalikes">Installing R under Unix-alikes</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-Linux-1">Linux</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#Linux">Linux</a></p>
+<p><a href="add-on-packages.html#index-Locale">Locale</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Internationalization">Internationalization</a></p>
+<p><a href="add-on-packages.html#index-Locale-1">Locale</a>:</p>
+<p> </p>
+<p><a href="add-on-packages.html#Locales">Locales</a></p>
+<p><a href="add-on-packages.html#index-Localization">Localization</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Internationalization">Internationalization</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-M">M</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-macOS">macOS</a>:</p>
+<p> </p>
+<p><a href="obtaining-r.html#Installing-R-under-Unix_002dalikes">Installing R under Unix-alikes</a></p>
+<p><a href="installing-r-under-macos.html#index-macOS-1">macOS</a>:</p>
+<p> </p>
+<p><a href="installing-r-under-windows.html#Installing-R-under-macOS">Installing R under macOS</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-macOS-2">macOS</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#macOS">macOS</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-Manuals">Manuals</a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Making-the-manuals">Making the manuals</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-Manuals_002c-installing">Manuals, installing</a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Installation">Installation</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-O">O</a></p>
+<p><a href="obtaining-r.html#index-Obtaining-R">Obtaining R</a>:</p>
+<p> </p>
+<p><a href="R-admin_split_002.html#Obtaining-R">Obtaining R</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-OpenBSD">OpenBSD</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#OpenBSD">OpenBSD</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-P">P</a></p>
+<p><a href="running-r.html#index-Packages">Packages</a>:</p>
+<p> </p>
+<p><a href="relational-databases.html#Add_002don-packages">Add-on packages</a></p>
+<p><a href="running-r.html#index-Packages_002c-default">Packages, default</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Default-packages">Default packages</a></p>
+<p><a href="running-r.html#index-Packages_002c-installing">Packages, installing</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Installing-packages">Installing packages</a></p>
+<p><a href="running-r.html#index-Packages_002c-removing">Packages, removing</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Removing-packages">Removing packages</a></p>
+<p><a href="running-r.html#index-Packages_002c-updating">Packages, updating</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Updating-packages">Updating packages</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-R">R</a></p>
+<p><a href="running-r.html#index-Repositories">Repositories</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Setting-up-a-package-repository">Setting up a package repository</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-S">S</a></p>
+<p><a href="running-r.html#index-Site-libraries">Site libraries</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Managing-libraries">Managing libraries</a></p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#index-Solaris">Solaris</a>:</p>
+<p> </p>
+<p><a href="appendix-b-configuration-on-a-unix-alike.html#Solaris">Solaris</a></p>
+<p><a href="obtaining-r.html#index-Sources-for-R">Sources for R</a>:</p>
+<p> </p>
+<p><a href="obtaining-r.html#Getting-and-unpacking-the-sources">Getting and unpacking the sources</a></p>
+<p><a href="obtaining-r.html#index-Subversion">Subversion</a>:</p>
+<p> </p>
+<p><a href="obtaining-r.html#Using-Subversion-and-rsync">Using Subversion and rsync</a></p>
+<p><a href="the-standalone-rmath-library.html#index-Subversion-1">Subversion</a>:</p>
+<p> </p>
+<p><a href="the-standalone-rmath-library.html#Essential-programs-and-libraries">Essential programs and libraries</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-U">U</a></p>
+<p><a href="running-r.html#index-User-libraries">User libraries</a>:</p>
+<p> </p>
+<p><a href="running-r.html#Managing-libraries">Managing libraries</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-V">V</a></p>
+<p><a href="the-standalone-rmath-library.html#index-Vignettes">Vignettes</a>:</p>
+<p> </p>
+<p><a href="the-standalone-rmath-library.html#Essential-programs-and-libraries">Essential programs and libraries</a></p>
+<hr />
+<p><a href="" id="Concept-index_cp_letter-W">W</a></p>
+<p><a href="installing-r-under-windows.html#index-winCairo_002edll">winCairo.dll</a>:</p>
+<p> </p>
+<p><a href="installing-r-under-windows.html#Building-the-cairo-devices-files">Building the cairo devices files</a></p>
+<hr />
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">Jump to:  </td>
+<td align="left"><a href="#Concept-index_cp_letter-A" class="summary-letter"><strong>A</strong></a>   <a href="#Concept-index_cp_letter-B" class="summary-letter"><strong>B</strong></a>   <a href="#Concept-index_cp_letter-F" class="summary-letter"><strong>F</strong></a>   <a href="#Concept-index_cp_letter-I" class="summary-letter"><strong>I</strong></a>   <a href="#Concept-index_cp_letter-L" class="summary-letter"><strong>L</strong></a>   <a href="#Concept-index_cp_letter-M" class="summary-letter"><strong>M</strong></a>   <a href="#Concept-index_cp_letter-O" class="summary-letter"><strong>O</strong></a>   <a href="#Concept-index_cp_letter-P" class="summary-letter"><strong>P</strong></a>   <a href="#Concept-index_cp_letter-R" class="summary-letter"><strong>R</strong></a>   <a href="#Concept-index_cp_letter-S" class="summary-letter"><strong>S</strong></a>   <a href="#Concept-index_cp_letter-U" class="summary-letter"><strong>U</strong></a>   <a href="#Concept-index_cp_letter-V" class="summary-letter"><strong>V</strong></a>   <a href="#Concept-index_cp_letter-W" class="summary-letter"><strong>W</strong></a>  </td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a href="" id="Environment-variable-index"></a> <a href="" id="Environment-variable-index-1"></a></p>

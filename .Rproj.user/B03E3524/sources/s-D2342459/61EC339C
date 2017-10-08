@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1507490389058.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "61EC339C",
+    "lastKnownWriteTime" : 1507490400,
+    "last_content_update" : 1507490400415,
+    "path" : "~/R/r-installation-administration/prep-data.R",
+    "project_path" : "prep-data.R",
+    "properties" : {
+        "cursorPosition" : "110,0",
+        "scrollLine" : "90",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

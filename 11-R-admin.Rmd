@@ -1,0 +1,99 @@
+#  The standalone Rmath library
+<p>The routines supporting the distribution and special<a href="environment-variable-index.html#FOOT35" id="DOCF35"><sup>35</sup></a> functions in R and a few others are declared in C header file Rmath.h. These can be compiled into a standalone library for linking to other applications. (Note that they are not a separate library when R is built, and the standalone version differs in several ways.)</p>
+<p>The makefiles and other sources needed are in directory src/nmath/standalone, so the following instructions assume that is the current working directory (in the build directory tree on a Unix-alike if that is separate from the sources).</p>
+<p>Rmath.h contains ‘R_VERSION_STRING’, which is a character string containing the current R version, for example <code class="calibre6">&quot;3.4.0&quot;</code>.</p>
+<p>There is full access to R’s handling of <code class="calibre6">NaN</code>, <code class="calibre6">Inf</code> and <code class="calibre6">-Inf</code> via special versions of the macros and functions</p>
+<div class="example">
+<pre class="example1"><code>    ISNAN, R_FINITE, R_log, R_pow and R_pow_di</code></pre>
+</div>
+<p>and (extern) constants <code class="calibre6">R_PosInf</code>, <code class="calibre6">R_NegInf</code> and <code class="calibre6">NA_REAL</code>.</p>
+<p>There is no support for R’s notion of missing values, in particular not for <code class="calibre6">NA_INTEGER</code> nor the distinction between <code class="calibre6">NA</code> and <code class="calibre6">NaN</code> for doubles.</p>
+<p>A little care is needed to use the random-number routines. You will need to supply the uniform random number generator</p>
+<div class="example">
+<pre class="example1"><code>    double unif_rand(void)</code></pre>
+</div>
+<p>or use the one supplied (and with a shared library or DLL you may have to use the one supplied, which is the Marsaglia-multicarry with an entry point</p>
+<div class="example">
+<pre class="example1"><code>    set_seed(unsigned int, unsigned int)</code></pre>
+</div>
+<p>to set its seeds).</p>
+<p>The facilities to change the normal random number generator are available through the constant N01_kind. This takes values from the enumeration type</p>
+<div class="example">
+<pre class="example1"><code>typedef enum {
+    BUGGY_KINDERMAN_RAMAGE,
+    AHRENS_DIETER,
+    BOX_MULLER,
+    USER_NORM,
+    INVERSION,
+    KINDERMAN_RAMAGE
+} N01type;</code></pre>
+</div>
+<p>(and ‘USER_NORM’ is not available).</p>
+<hr />
+<p><a href="" id="Unix_002dalike-standalone"></a> <a href="" id="Unix_002dalikes"></a></p>
+<h3 id="unix-alikes" class="section">9.1 Unix-alikes</h3>
+<p>If R has not already been made in the directory tree, <code class="calibre6">configure</code> must be run as described in the main build instructions.</p>
+<p>Then (in src/nmath/standalone)</p>
+<div class="example">
+<pre class="example1"><code>make</code></pre>
+</div>
+<p>will make standalone libraries libRmath.a and libRmath.so (libRmath.dylib on macOS): ‘make static’ and ‘make shared’ will create just one of them.</p>
+<p>To use the routines in your own C or C++ programs, include</p>
+<div class="example">
+<pre class="example1"><code>#define MATHLIB_STANDALONE
+#include &lt;Rmath.h&gt;</code></pre>
+</div>
+<p>and link against ‘-lRmath’ (and ‘-lm’ if needed on your OS). The example file test.c does nothing useful, but is provided to test the process (via <code class="calibre6">make test</code>). Note that you will probably not be able to run it unless you add the directory containing <a href="" id="index-LD_005fLIBRARY_005fPATH"></a> libRmath.so to the <code class="calibre6">LD_LIBRARY_PATH</code> environment variable (libRmath.dylib, <code class="calibre6">DYLD_FALLBACK_LIBRARY_PATH</code> on macOS).</p>
+<p>The targets</p>
+<div class="example">
+<pre class="example1"><code>make install
+make uninstall</code></pre>
+</div>
+<p>will (un)install the header Rmath.h and shared and static <a href="" id="index-DESTDIR-1"></a> libraries (if built). Both <code class="calibre6">prefix=</code> and <code class="calibre6">DESTDIR</code> are supported, together with more precise control as described for the main build.</p>
+<p>‘make install’ installs a file for <code class="calibre6">pkg-config</code> to use by e.g.</p>
+<div class="example">
+<pre class="example1"><code>$(CC) `pkg-config --cflags libRmath` -c test.c
+$(CC) `pkg-config --libs libRmath` test.o -o test</code></pre>
+</div>
+<p>On some systems ‘make install-strip’ will install a stripped shared library.</p>
+<hr />
+<p><a href="" id="Windows-standalone"></a> <a href="" id="Windows-1"></a></p>
+<h3 id="windows" class="section">9.2 Windows</h3>
+<p>You need to set up<a href="environment-variable-index.html#FOOT36" id="DOCF36"><sup>36</sup></a> almost all the tools to make R and then run (in a Unix-like shell)</p>
+<div class="example">
+<pre class="example1"><code>(cd ../../gnuwin32; make MkRules)
+(cd ../../include; make -f Makefile.win config.h Rconfig.h Rmath.h)
+make -f Makefile.win</code></pre>
+</div>
+<p>Alternatively, in a cmd.exe shell use</p>
+<div class="example">
+<pre class="example1"><code>cd ../../include
+make -f Makefile.win config.h Rconfig.h Rmath.h
+cd ../nmath/standalone
+make -f Makefile.win</code></pre>
+</div>
+<p>This creates a static library libRmath.a and a DLL Rmath.dll. If you want an import library libRmath.dll.a (you don’t need one), use</p>
+<div class="example">
+<pre class="example1"><code>make -f Makefile.win shared implib</code></pre>
+</div>
+<p>To use the routines in your own C or C++ programs using MinGW-w64, include</p>
+<div class="example">
+<pre class="example1"><code>#define MATHLIB_STANDALONE
+#include &lt;Rmath.h&gt;</code></pre>
+</div>
+<p>and link against ‘-lRmath’. This will use the first found of libRmath.dll.a, libRmath.a and Rmath.dll in that order, so the result depends on which files are present. You should be able to force static or dynamic linking <em>via</em></p>
+<div class="example">
+<pre class="example1"><code>-Wl,-Bstatic -lRmath -Wl,Bdynamic
+-Wl,-Bdynamic -lRmath</code></pre>
+</div>
+<p>or by linking to explicit files (as in the ‘test’ target in Makefile.win: this makes two executables, test.exe which is dynamically linked, and test-static.exe, which is statically linked).</p>
+<p>It is possible to link to Rmath.dll using other compilers, either directly or via an import library: if you make a MinGW-w64 import library as above, you will create a file Rmath.def which can be used (possibly after editing) to create an import library for other systems such as Visual C++.</p>
+<p>If you make use of dynamic linking you should use</p>
+<div class="example">
+<pre class="example1"><code>#define MATHLIB_STANDALONE
+#define RMATH_DLL
+#include &lt;Rmath.h&gt;</code></pre>
+</div>
+<p>to ensure that the constants like <code class="calibre6">NA_REAL</code> are linked correctly. (Auto-import will probably work with MinGW-w64, but it is better to be sure. This is likely to also work with VC++, Borland and similar compilers.)</p>
+<hr />
+<p><a href="" id="Essential-and-useful-other-programs-under-a-Unix_002dalike"></a> <a href="" id="Essential-and-useful-other-programs-under-a-Unix_002dalike-1"></a></p>

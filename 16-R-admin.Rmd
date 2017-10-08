@@ -1,0 +1,66 @@
+# Function and variable index
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">Jump to:  </td>
+<td align="left"><a href="#Function-and-variable-index_vr_letter-C" class="summary-letter"><strong>C</strong></a>   <a href="#Function-and-variable-index_vr_letter-I" class="summary-letter"><strong>I</strong></a>   <a href="#Function-and-variable-index_vr_letter-M" class="summary-letter"><strong>M</strong></a>   <a href="#Function-and-variable-index_vr_letter-R" class="summary-letter"><strong>R</strong></a>   <a href="#Function-and-variable-index_vr_letter-U" class="summary-letter"><strong>U</strong></a>  </td>
+</tr>
+</tbody>
+</table>
+<p>Index Entry</p>
+<p> </p>
+<p>Section</p>
+<hr />
+<p><a href="" id="Function-and-variable-index_vr_letter-C">C</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-configure"><code class="calibre6">configure</code></a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Simple-compilation">Simple compilation</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-configure-1"><code class="calibre6">configure</code></a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Simple-compilation">Simple compilation</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-configure-2"><code class="calibre6">configure</code></a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Installation">Installation</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-configure-3"><code class="calibre6">configure</code></a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Installation">Installation</a></p>
+<p><a href="appendix-a-essential-and-useful-other-programs-under-a-unix-alike.html#index-configure-4"><code class="calibre6">configure</code></a>:</p>
+<p> </p>
+<p><a href="appendix-a-essential-and-useful-other-programs-under-a-unix-alike.html#Configuration-variables">Configuration variables</a></p>
+<p><a href="appendix-a-essential-and-useful-other-programs-under-a-unix-alike.html#index-configure-5"><code class="calibre6">configure</code></a>:</p>
+<p> </p>
+<p><a href="appendix-a-essential-and-useful-other-programs-under-a-unix-alike.html#Using-make">Using make</a></p>
+<hr />
+<p><a href="" id="Function-and-variable-index_vr_letter-I">I</a></p>
+<p><a href="running-r.html#index-install_002epackages"><code class="calibre6">install.packages</code></a>:</p>
+<p> </p>
+<p><a href="running-r.html#Installing-packages">Installing packages</a></p>
+<hr />
+<p><a href="" id="Function-and-variable-index_vr_letter-M">M</a></p>
+<p><a href="appendix-a-essential-and-useful-other-programs-under-a-unix-alike.html#index-make"><code class="calibre6">make</code></a>:</p>
+<p> </p>
+<p><a href="appendix-a-essential-and-useful-other-programs-under-a-unix-alike.html#Using-make">Using make</a></p>
+<hr />
+<p><a href="" id="Function-and-variable-index_vr_letter-R">R</a></p>
+<p><a href="running-r.html#index-remove_002epackages"><code class="calibre6">remove.packages</code></a>:</p>
+<p> </p>
+<p><a href="running-r.html#Removing-packages">Removing packages</a></p>
+<p><a href="installing-r-under-unix-alikes.html#index-R_005fHOME"><code class="calibre6">R_HOME</code></a>:</p>
+<p> </p>
+<p><a href="installing-r-under-unix-alikes.html#Simple-compilation">Simple compilation</a></p>
+<hr />
+<p><a href="" id="Function-and-variable-index_vr_letter-U">U</a></p>
+<p><a href="running-r.html#index-update_002epackages"><code class="calibre6">update.packages</code></a>:</p>
+<p> </p>
+<p><a href="running-r.html#Updating-packages">Updating packages</a></p>
+<hr />
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">Jump to:  </td>
+<td align="left"><a href="#Function-and-variable-index_vr_letter-C" class="summary-letter"><strong>C</strong></a>   <a href="#Function-and-variable-index_vr_letter-I" class="summary-letter"><strong>I</strong></a>   <a href="#Function-and-variable-index_vr_letter-M" class="summary-letter"><strong>M</strong></a>   <a href="#Function-and-variable-index_vr_letter-R" class="summary-letter"><strong>R</strong></a>   <a href="#Function-and-variable-index_vr_letter-U" class="summary-letter"><strong>U</strong></a>  </td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><a href="" id="Concept-index"></a> <a href="" id="Concept-index-1"></a></p>

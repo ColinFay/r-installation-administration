@@ -174,3 +174,60 @@ remote: Resolving deltas:   0% (0/17)   [Kremote: Resolving deltas:   5% (1/17
 To https://github.com/ColinFay/r-installation-administration.git
    fbfced7..069b3ad  master -> master
 ]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git commt[Kit -a -m "small change in title"
+[master a046388] small change in title
+ 8 files changed, 165 insertions(+), 12 deletions(-)
+ rewrite .Rproj.user/B03E3524/console06/INDEX001 (73%)
+]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git push 
+warning: push.default n'est pas défini ; sa valeur implicite a changé dans Git 2.0
+de 'matching' vers 'simple'. Pour supprimer ce message et maintenir
+le comportement actuel après la modification de la valeur de défaut, utilisez :
+
+  git config --global push.default matching
+
+Pour supprimer ce message et adopter le nouveau comportement maintenant, utilisez :
+
+  git config --global push.default simple
+
+Quand push.default vaudra 'matching', git poussera les branches locales
+sur les branches distantes qui existent déjà avec le même nom.
+
+Depuis Git 2.0, Git utilise par défaut le comportement plus conservatif 'simple'
+qui ne pousse la branche courante que vers la branche distante correspondante
+que 'git pull' utilise pour mettre à jour la branche courante.
+ 
+Voir 'git help config' et chercher 'push.default' pour plus d'information.
+(le mode 'simple' a été introduit dans Git 1.7.11. Utilisez le mode similaire
+'current' au lieu de 'simple' si vous utilisez de temps en temps d'anciennes versions de Git)
+
+Décompte des objets: 14, fait.
+Delta compression using up to 4 threads.
+Compression des objets:   7% (1/14)   Compression des objets:  14% (2/14)   Compression des objets:  21% (3/14)   Compression des objets:  28% (4/14)   Compression des objets:  35% (5/14)   Compression des objets:  42% (6/14)   Compression des objets:  50% (7/14)   Compression des objets:  57% (8/14)   Compression des objets:  64% (9/14)   Compression des objets:  71% (10/14)   Compression des objets:  78% (11/14)   Compression des objets:  85% (12/14)   Compression des objets:  92% (13/14)   Compression des objets: 100% (14/14)   Compression des objets: 100% (14/14), fait.
+Écriture des objets:   7% (1/14)   Écriture des objets:  14% (2/14)   Écriture des objets:  21% (3/14)   Écriture des objets:  28% (4/14)   Écriture des objets:  35% (5/14)   Écriture des objets:  42% (6/14)   Écriture des objets:  50% (7/14)   Écriture des objets:  57% (8/14)   Écriture des objets:  64% (9/14)   Écriture des objets:  71% (10/14)   Écriture des objets:  78% (11/14)   Écriture des objets:  85% (12/14)   Écriture des objets:  92% (13/14)   Écriture des objets: 100% (14/14)   Écriture des objets: 100% (14/14), 4.63 KiB | 0 bytes/s, fait.
+Total 14 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/ColinFay/r-installation-administration.git
+   069b3ad..a046388  master -> master
+]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git push commit -a -m "small change in title"push[K
+warning: push.default n'est pas défini ; sa valeur implicite a changé dans Git 2.0
+de 'matching' vers 'simple'. Pour supprimer ce message et maintenir
+le comportement actuel après la modification de la valeur de défaut, utilisez :
+
+  git config --global push.default matching
+
+Pour supprimer ce message et adopter le nouveau comportement maintenant, utilisez :
+
+  git config --global push.default simple
+
+Quand push.default vaudra 'matching', git poussera les branches locales
+sur les branches distantes qui existent déjà avec le même nom.
+
+Depuis Git 2.0, Git utilise par défaut le comportement plus conservatif 'simple'
+qui ne pousse la branche courante que vers la branche distante correspondante
+que 'git pull' utilise pour mettre à jour la branche courante.
+ 
+Voir 'git help config' et chercher 'push.default' pour plus d'information.
+(le mode 'simple' a été introduit dans Git 1.7.11. Utilisez le mode similaire
+'current' au lieu de 'simple' si vous utilisez de temps en temps d'anciennes versions de Git)
+
+Everything up-to-date
+]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git push commit -a -m "small change in title"

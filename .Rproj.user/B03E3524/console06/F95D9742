@@ -230,4 +230,54 @@ Voir 'git help config' et chercher 'push.default' pour plus d'information.
 'current' au lieu de 'simple' si vous utilisez de temps en temps d'anciennes versions de Git)
 
 Everything up-to-date
-]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git push commit -a -m "small change in title"
+[K]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git status
+Sur la branche master
+Votre branche est à jour avec 'origin/master'.
+Modifications qui ne seront pas validées :
+  (utilisez "git add/rm <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
+
+	[31mmodifié :         .Rproj.user/B03E3524/console06/F95D9742[m
+	[31mmodifié :         .Rproj.user/B03E3524/console06/INDEX001[m
+	[31mmodifié :         .Rproj.user/B03E3524/sources/prop/4CD03027[m
+	[31mmodifié :         .Rproj.user/B03E3524/sources/prop/971EACEA[m
+	[31mmodifié :         .Rproj.user/B03E3524/sources/prop/INDEX[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/23088FD[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/23088FD-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/37160CEB-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/3AC09484-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/593E91E7-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/607403E0-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/61EC339C[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/61EC339C-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/6C71685C-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/89C21EE0-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/A1193A5D[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/A1193A5D-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/A356C465-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/B2C419F9-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/B8D9AA85-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/BF39AAFD-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/C144124B-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/C6385C98-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/CAA8F594-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/D7A383C8-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/DBA6ED48-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/E8444F37[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/E8444F37-contents[m
+	[31msupprimé :        .Rproj.user/B03E3524/sources/s-D2342459/lock_file[m
+	[31mmodifié :         .Rproj.user/shared/notebooks/paths[m
+	[31mmodifié :         docs/index.html[m
+	[31mmodifié :         docs/search_index.json[m
+	[31mmodifié :         index.Rmd[m
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+
+	[31m.gitignore[m
+	[31mga[m
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git a[Kpull
+Already up-to-date.
+]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git ad[K[Kcommut )[K[K[K[Kit )a[K[K-a -m  [K' [Kiu[Kndex  p[Kupdate'

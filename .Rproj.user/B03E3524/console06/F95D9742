@@ -281,3 +281,62 @@ aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "
 ]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git a[Kpull
 Already up-to-date.
 ]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git ad[K[Kcommut )[K[K[K[Kit )a[K[K-a -m  [K' [Kiu[Kndex  p[Kupdate'
+[master 3237e9b] index update
+ 33 files changed, 109 insertions(+), 2047 deletions(-)
+ rewrite .Rproj.user/B03E3524/console06/INDEX001 (86%)
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/23088FD
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/23088FD-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/37160CEB-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/3AC09484-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/593E91E7-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/607403E0-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/61EC339C
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/61EC339C-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/6C71685C-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/89C21EE0-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/A1193A5D
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/A1193A5D-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/A356C465-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/B2C419F9-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/B8D9AA85-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/BF39AAFD-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/C144124B-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/C6385C98-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/CAA8F594-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/DBA6ED48-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/E8444F37
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/E8444F37-contents
+ delete mode 100644 .Rproj.user/B03E3524/sources/s-D2342459/lock_file
+ rename .Rproj.user/B03E3524/sources/s-D2342459/D7A383C8-contents => docs/search_index.json (96%)
+]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git push
+warning: push.default n'est pas défini ; sa valeur implicite a changé dans Git 2.0
+de 'matching' vers 'simple'. Pour supprimer ce message et maintenir
+le comportement actuel après la modification de la valeur de défaut, utilisez :
+
+  git config --global push.default matching
+
+Pour supprimer ce message et adopter le nouveau comportement maintenant, utilisez :
+
+  git config --global push.default simple
+
+Quand push.default vaudra 'matching', git poussera les branches locales
+sur les branches distantes qui existent déjà avec le même nom.
+
+Depuis Git 2.0, Git utilise par défaut le comportement plus conservatif 'simple'
+qui ne pousse la branche courante que vers la branche distante correspondante
+que 'git pull' utilise pour mettre à jour la branche courante.
+ 
+Voir 'git help config' et chercher 'push.default' pour plus d'information.
+(le mode 'simple' a été introduit dans Git 1.7.11. Utilisez le mode similaire
+'current' au lieu de 'simple' si vous utilisez de temps en temps d'anciennes versions de Git)
+
+Décompte des objets: 20, fait.
+Delta compression using up to 4 threads.
+Compression des objets:   5% (1/18)   Compression des objets:  11% (2/18)   Compression des objets:  16% (3/18)   Compression des objets:  22% (4/18)   Compression des objets:  27% (5/18)   Compression des objets:  33% (6/18)   Compression des objets:  38% (7/18)   Compression des objets:  44% (8/18)   Compression des objets:  50% (9/18)   Compression des objets:  55% (10/18)   Compression des objets:  61% (11/18)   Compression des objets:  66% (12/18)   Compression des objets:  72% (13/18)   Compression des objets:  77% (14/18)   Compression des objets:  83% (15/18)   Compression des objets:  88% (16/18)   Compression des objets:  94% (17/18)   Compression des objets: 100% (18/18)   Compression des objets: 100% (18/18), fait.
+Écriture des objets:   5% (1/20)   Écriture des objets:  10% (2/20)   Écriture des objets:  15% (3/20)   Écriture des objets:  20% (4/20)   Écriture des objets:  25% (5/20)   Écriture des objets:  30% (6/20)   Écriture des objets:  35% (7/20)   Écriture des objets:  40% (8/20)   Écriture des objets:  45% (9/20)   Écriture des objets:  50% (10/20)   Écriture des objets:  55% (11/20)   Écriture des objets:  60% (12/20)   Écriture des objets:  65% (13/20)   Écriture des objets:  70% (14/20)   Écriture des objets:  75% (15/20)   Écriture des objets:  80% (16/20)   Écriture des objets:  85% (17/20)   Écriture des objets:  90% (18/20)   Écriture des objets:  95% (19/20)   Écriture des objets: 100% (20/20)   Écriture des objets: 100% (20/20), 4.11 KiB | 0 bytes/s, fait.
+Total 20 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/10)   [Kremote: Resolving deltas:  10% (1/10)   [Kremote: Resolving deltas:  20% (2/10)   [Kremote: Resolving deltas:  30% (3/10)   [Kremote: Resolving deltas:  40% (4/10)   [Kremote: Resolving deltas:  50% (5/10)   [Kremote: Resolving deltas:  60% (6/10)   [Kremote: Resolving deltas:  70% (7/10)   [Kremote: Resolving deltas:  80% (8/10)   [Kremote: Resolving deltas:  90% (9/10)   [Kremote: Resolving deltas: 100% (10/10)   [Kremote: Resolving deltas: 100% (10/10), completed with 10 local objects.[K
+To https://github.com/ColinFay/r-installation-administration.git
+   45ff9dc..3237e9b  master -> master
+]0;/home/colin/R/r-installation-administration]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ déconnexion
+[K]0;colin@colin-MacBookPro: ~/R/r-installation-administration[01;32mcolin@colin-MacBookPro[00m:[01;34m~/R/r-installation-administration[00m$ git commit -a -m "ga"
